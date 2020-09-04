@@ -8,7 +8,7 @@ wordpress_sites:
       - canonical: staging.josedu.digital
         # redirects:
         #   - otherdomain.com
-    local_path: ../staging.bellavistamarket.digital # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../bellavistamarket.digital # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:josedu90/staging.bellavistamarket.digital.git # replace with your Git repo URL
     repo_subtree_path: bellavistamarket.digital # relative path to your Bedrock/WP directory in your repo
     branch: master
