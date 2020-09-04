@@ -5,7 +5,7 @@
 wordpress_sites:
   bellavistamarket.digital:
     site_hosts:
-      - canonical: staging.bellavistamarket.digital
+      - canonical: staging.josedu.digital
         # redirects:
         #   - otherdomain.com
     local_path: ../staging.bellavistamarket.digital # path targeting local Bedrock site directory (relative to Ansible root)
