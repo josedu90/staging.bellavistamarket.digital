@@ -10,15 +10,15 @@ vault_users:
 # Variables to accompany `group_vars/production/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
-  example.com:
+  bellavistamarket.digital:
     env:
       db_password: "bellavista"
       # Generate your keys here: https://roots.io/salts.html
-      auth_key: "generateme"
-      secure_auth_key: "generateme"
-      logged_in_key: "generateme"
-      nonce_key: "generateme"
-      auth_salt: "generateme"
-      secure_auth_salt: "generateme"
-      logged_in_salt: "generateme"
-      nonce_salt: "generateme"
+auth_key: "-Ia3*{sPDT<<VO{8#pv/(};](CE#c}ct%l83/:}d[3w@|Tw<elA)^:e`F/Ysk/!l"
+secure_auth_key: "$8-`k1K;tk;R@HUR)Lr?|%e@Ur:RGgLuDI;vN{]+Lf}C{fs<_a&(!Kb(mMOl*C_C"
+logged_in_key: "L+SGuT(XWt0tZucjM)1rw(b8jF-sJ-G/>?P6mi?qBfr5ZKPCL%Jhn)HrT&Lq^Z,K"
+nonce_key: "=ej1d$3D6z%]xZmXY&)vJv6Mb`n{_XZy[UxQG{|`,502j4}nUI:LcI;tce;}Tt$O"
+auth_salt: "SO%z<5:T.*.pHj#5PTjH$?^wi[p;!U9mzdP8L2zM`V:thvVn7uZp&(|,INCUSb1x"
+secure_auth_salt: "JW0&=Eu2_}cOS!rNnj[_@$iz(OL$c<f6U$2RM`H(JxNpd_f3*WG{#FMKE;1G9{MW"
+logged_in_salt: "YL$s8N]rcd_G*Gs{%P1qeEpO@!D9m}}!mnfTRZLJ)iqqG$@TG$A8r&XmwT85A?5F"
+nonce_salt: "A;+ZgF0p8wl0Thb-=KBaY;>n-i:d[hR@-2be]v{0?)UK[Agz}Vh}@TmBWq|Oh_S3"
